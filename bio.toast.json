@@ -1,0 +1,25 @@
+{
+    "name": "",
+    "description": "",
+    "pronouns": "",
+    "themeColor": "#daa520",
+    "embedImage": "https://lightly-toasted.github.io/android-chrome-192x192.png",
+    "github": {
+      "username": ""
+    },
+    "discord": {
+      "id": "1167437052766322770",
+      "lanyard-api-base-url": "https://api.lanyard.rest/v1"
+    },
+    "social": {
+      "website": "https://example.com/",
+      "youtube": "https://youtube.com/",
+      "twitter": "https://twitter.com/",
+      "facebook": "https://facebook.com/",
+      "twitch": "https://twitch.com/",
+      "buymeacoffee": "https://buymeacoffee.com/tooast",
+      "spotify": "https://spotify.com/",
+      "email": "mailto:bio@toast.name"
+    },
+    "customWidgets": []
+  }
