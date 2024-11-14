@@ -8,10 +8,10 @@ Have fun customizing it to your liking!
 1. [Fork](https://github.com/lightly-toasted/yourname.bio.toast/fork) this, and set the repository name to `<your-github-username>.bio.toast`.
 2. Edit the files to customize your bio.
 3. To test out your styles:
-   a. Open the `styles.css` file in the root directory.
-   b. Add or modify CSS rules to customize the appearance of your bio.
-   c. Run `npm run dev` in your terminal to start the development server.
-   d. Open your browser to `http://localhost:3001` to see your changes in real-time. (if you are getting ratelimited, host [bio.toast](https://github.com/lightly-toasted/bio.toast) in your computer and run `npm run dev:localhost`)
+   * Open the `styles.css` file in the root directory.
+   * Add or modify CSS rules to customize the appearance of your bio.
+   * Run `npm run dev` in your terminal to start the development server.
+   * Open your browser to `http://localhost:3001` to see your changes in real-time. (if you are getting ratelimited, host [bio.toast](https://github.com/lightly-toasted/bio.toast) in your computer and run `npm run dev:localhost`)
 4. Once you're satisfied with your changes, commit them to your GitHub repository.
 5. Visit your bio to see the final result.
 
