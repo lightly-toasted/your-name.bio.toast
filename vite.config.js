@@ -20,7 +20,7 @@ function externalBodyPlugin(externalUrl) {
 }
 
 export default defineConfig({
-  plugins: [externalBodyPlugin('http://bio.toast.name/lightly-toasted')],
+  plugins: [externalBodyPlugin(import.meta.env.BIO_TOAST_URL || 'https://bio.toast.name/lightly-toasted')],
   server: {
     watch: {
       ignored: ['!**/node_modules/**'],
