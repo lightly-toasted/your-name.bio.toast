@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 import fetch from 'node-fetch';
 
 function externalBodyPlugin(externalUrl) {
@@ -19,11 +19,17 @@ function externalBodyPlugin(externalUrl) {
   };
 }
 
-export default defineConfig({
-  plugins: [externalBodyPlugin(import.meta.env.BIO_TOAST_URL || 'https://bio.toast.name/lightly-toasted')],
-  server: {
-    watch: {
-      ignored: ['!**/node_modules/**'],
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '')
+  
+  return {
+    plugins: [
+      externalBodyPlugin(env.BIO_TOAST_URL || 'http://bio.toast.name/lightly-toasted'),
+    ],
+    server: {
+      watch: {
+        ignored: ['!**/node_modules/**'],
+      },
     },
-  },
-});
+  }
+})
