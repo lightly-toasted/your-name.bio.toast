@@ -1,4 +1,4 @@
-# my-bio.toast
+# bio.toast Template
 This is where you can design your [bio.toast](https://github.com/lightly-toasted/bio.toast) bio.
 Have fun customizing it to your liking!
 
